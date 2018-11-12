@@ -3,35 +3,40 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="101.0">Fruit</node>
-    <node x="223.0" y="263.0">VisitorPatternDemo</node>
-    <node x="127.5" y="0.0">Element</node>
-    <node x="0.0" y="386.0">ShoppingCartVisitorImpl</node>
-    <node x="255.0" y="112.0">Book</node>
-    <node x="12.0" y="263.0">ShoppingCartVisitor</node>
+    <node x="0.0" y="123.0">Fruit</node>
+    <node x="248.0" y="373.0">VisitorPatternDemo</node>
+    <node x="278.0" y="0.0">Element</node>
+    <node x="556.0" y="101.0">Beer</node>
+    <node x="0.0" y="518.0">ShoppingCartVisitorDisplay</node>
+    <node x="0.0" y="373.0">ShoppingCartVisitor</node>
+    <node x="278.0" y="101.0">Smartphone</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Book" target="Element">
+    <edge source="ShoppingCartVisitorDisplay" target="ShoppingCartVisitor">
       <point x="0.0" y="-47.5" />
-      <point x="372.5" y="76.0" />
-      <point x="303.75" y="76.0" />
-      <point x="58.75" y="25.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="Beer" target="Element">
+      <point x="0.0" y="-113.5" />
+      <point x="685.0" y="76.0" />
+      <point x="493.0" y="76.0" />
+      <point x="86.0" y="25.5" />
     </edge>
     <edge source="Fruit" target="Element">
-      <point x="0.0" y="-58.5" />
-      <point x="117.5" y="76.0" />
-      <point x="186.25" y="76.0" />
-      <point x="-58.75" y="25.5" />
+      <point x="0.0" y="-91.5" />
+      <point x="129.0" y="76.0" />
+      <point x="321.0" y="76.0" />
+      <point x="-86.0" y="25.5" />
     </edge>
-    <edge source="ShoppingCartVisitorImpl" target="ShoppingCartVisitor">
-      <point x="0.0" y="-36.5" />
-      <point x="0.0" y="36.5" />
+    <edge source="Smartphone" target="Element">
+      <point x="0.0" y="-113.5" />
+      <point x="0.0" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="245.0" y="229.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="232.0" y="179.0" />
   <SelectedNodes>
-    <node>ShoppingCartVisitorImpl</node>
+    <node>Element</node>
   </SelectedNodes>
   <Categories>
     <Category>Methods</Category>
