@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="101.0">Fruit</node>
+    <node x="223.0" y="263.0">VisitorPatternDemo</node>
+    <node x="127.5" y="0.0">Element</node>
+    <node x="0.0" y="386.0">ShoppingCartVisitorImpl</node>
+    <node x="255.0" y="112.0">Book</node>
+    <node x="12.0" y="263.0">ShoppingCartVisitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Book" target="Element">
+      <point x="0.0" y="-47.5" />
+      <point x="372.5" y="76.0" />
+      <point x="303.75" y="76.0" />
+      <point x="58.75" y="25.5" />
+    </edge>
+    <edge source="Fruit" target="Element">
+      <point x="0.0" y="-58.5" />
+      <point x="117.5" y="76.0" />
+      <point x="186.25" y="76.0" />
+      <point x="-58.75" y="25.5" />
+    </edge>
+    <edge source="ShoppingCartVisitorImpl" target="ShoppingCartVisitor">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="245.0" y="229.5" />
+  <SelectedNodes>
+    <node>ShoppingCartVisitorImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
